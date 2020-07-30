@@ -1,6 +1,7 @@
 body{
     background-image: url("images/bg.jpg");
 }
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -9,6 +10,20 @@ body{
     -ms-user-select: none;
     user-select: none;
 }
+
+header {
+    background-color: #999;
+    background-image: url(images/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 4em;
+    text-align: center;
+    height: 750px;
+  }
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
@@ -19,7 +34,9 @@ body{
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
+    word-spacing: 20px;
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
